@@ -1,5 +1,5 @@
 Laravel-Facebook (Laravel4 Package)
-------------------------------------
+===================================
 
 **Laravel4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
 
