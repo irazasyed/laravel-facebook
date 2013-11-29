@@ -1,5 +1,5 @@
 Laravel-Facebook (Laravel4 Package)
-====================================
+------------------------------------
 
 **Laravel4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
 
@@ -7,7 +7,7 @@ Laravel-Facebook (Laravel4 Package)
 
 
 ### Required setup / Installation
----
+
 
 You can either add the package directly by firing this command
 	
@@ -49,7 +49,7 @@ At the end of `app/config/app.php` add `'FB' => 'Irazasyed\LaravelFacebook\Faceb
 **NOTE:** Don't use `Facebook` as your facade alias as it conflicts with the SDK itself. Because the SDK doesn't have namespace (And they ain't adding it either).
     
 ### Configuration
----
+
 
 Copy the config file into your project by running
 
@@ -64,19 +64,19 @@ Edit the config file to include your App ID and secret key into `init` option. S
 **And you are ready to go.**
 
 ## Usage
----
+
 
 This Package extends the Facebook PHP SDK, So all the methods listed here http://developers.facebook.com/docs/reference/php/ are available, as well as the following methods/helpers.
 
 **Adding Soon!**
 
 ## License
----
+
 
 This package is distributed under the terms of the MIT license.
 
 
 ## Additional information
----
+
 
 Any issues, please [report here](https://github.com/irazasyed/laravel-facebook/issues)
