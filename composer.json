@@ -1,0 +1,23 @@
+{
+    "name": "irazasyed/laravel-facebook",
+    "description": "Laravel 4 support for Facebook SDK",
+    "keywords": ["laravel","laravel facebook", "facebook", "facebook sdk", "graph api", "facebook api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syed I.R",
+            "email": "syed@lukonet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x",
+        "facebook/php-sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Irazasyed\\LaravelFacebook\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
