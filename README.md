@@ -80,3 +80,7 @@ This package is distributed under the terms of the MIT license.
 
 
 Any issues, please [report here](https://github.com/irazasyed/laravel-facebook/issues)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/irazasyed/laravel-facebook/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
