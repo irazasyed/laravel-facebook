@@ -11,11 +11,11 @@ Laravel-Facebook (Laravel4 Package)
 
 You can either add the package directly by firing this command
 	
-	$ composer require irazasyed/laravel-facebook:dev-master
+	$ composer require irazasyed/laravel-facebook:~1.0
 	
 Or add in the `require` key of `composer.json` file manually by add the following
 
-    "irazasyed/laravel-facebook": "dev-master"
+    "irazasyed/laravel-facebook": "~1.0"
 
 And Run the Composer update comand
 
@@ -72,9 +72,7 @@ This Package extends the Facebook PHP SDK, So all the methods listed here http:/
 
 ## License
 
-
-This package is distributed under the terms of the MIT license.
-
+MIT © [Syed I.R](http://lk.gd/irazasyed)
 
 ## Additional information
 
