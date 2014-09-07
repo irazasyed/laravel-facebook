@@ -1,5 +1,7 @@
-Laravel-Facebook Package [![Build Status](https://travis-ci.org/irazasyed/laravel-facebook.svg)](https://travis-ci.org/irazasyed/laravel-facebook)
+Laravel-Facebook Package
 ===================================
+[![Build Status](https://travis-ci.org/irazasyed/laravel-facebook.svg)](https://travis-ci.org/irazasyed/laravel-facebook)
+[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-facebook/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![Total Downloads](https://poser.pugx.org/irazasyed/laravel-facebook/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-facebook/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![License](https://poser.pugx.org/irazasyed/laravel-facebook/license.svg)](https://packagist.org/packages/irazasyed/laravel-facebook)
 
 **Laravel 4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
 
@@ -78,7 +80,3 @@ MIT © [Syed I.R](http://lk.gd/irazasyed)
 
 
 Any issues, please [report here](https://github.com/irazasyed/laravel-facebook/issues)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/irazasyed/laravel-facebook/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
