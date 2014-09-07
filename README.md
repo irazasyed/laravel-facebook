@@ -1,7 +1,7 @@
-Laravel-Facebook (Laravel4 Package)
+Laravel-Facebook Package [![Build Status](https://travis-ci.org/irazasyed/laravel-facebook.svg)](https://travis-ci.org/irazasyed/laravel-facebook)
 ===================================
 
-**Laravel4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
+**Laravel 4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
 
 ## Quick start
 
