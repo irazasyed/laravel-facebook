@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Laravel-facebook by irazasyed</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Laravel-facebook</h1>
+        <p>Laravel 4 Facebook SDK Package for Graph API</p>
+
+        <p class="view"><a href="https://github.com/irazasyed/laravel-facebook">View the Project on GitHub <small>irazasyed/laravel-facebook</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/irazasyed/laravel-facebook/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/irazasyed/laravel-facebook/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/irazasyed/laravel-facebook">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="laravel-facebook-package" class="anchor" href="#laravel-facebook-package"><span class="octicon octicon-link"></span></a>Laravel-Facebook Package</h1>
+
+<p><a href="https://travis-ci.org/irazasyed/laravel-facebook"><img src="https://travis-ci.org/irazasyed/laravel-facebook.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/irazasyed/laravel-facebook"><img src="https://poser.pugx.org/irazasyed/laravel-facebook/v/stable.svg" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/irazasyed/laravel-facebook"><img src="https://poser.pugx.org/irazasyed/laravel-facebook/downloads.svg" alt="Total Downloads"></a> <a href="https://packagist.org/packages/irazasyed/laravel-facebook"><img src="https://poser.pugx.org/irazasyed/laravel-facebook/v/unstable.svg" alt="Latest Unstable Version"></a> <a href="https://packagist.org/packages/irazasyed/laravel-facebook"><img src="https://poser.pugx.org/irazasyed/laravel-facebook/license.svg" alt="License"></a></p>
+
+<p><strong>Laravel 4</strong> Support for <a href="https://github.com/facebook/facebook-php-sdk">Facebook PHP SDK</a> and additional helper methods.</p>
+
+<h2>
+<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick start</h2>
+
+<h3>
+<a name="required-setup--installation" class="anchor" href="#required-setup--installation"><span class="octicon octicon-link"></span></a>Required setup / Installation</h3>
+
+<p>You can either add the package directly by firing this command</p>
+
+<pre><code>$ composer require irazasyed/laravel-facebook:~1.0
+</code></pre>
+
+<p>Or add in the <code>require</code> key of <code>composer.json</code> file manually by add the following</p>
+
+<pre><code>"irazasyed/laravel-facebook": "~1.0"
+</code></pre>
+
+<p>And Run the Composer update comand</p>
+
+<pre><code>$ composer update
+</code></pre>
+
+<p>In your <code>app/config/app.php</code> add <code>'Irazasyed\LaravelFacebook\LaravelFacebookServiceProvider'</code> to the end of the <code>$providers</code> array</p>
+
+<pre><code>'providers' =&gt; array(
+
+    'Illuminate\Foundation\Providers\ArtisanServiceProvider',
+    'Illuminate\Auth\AuthServiceProvider',
+    ...
+    'Irazasyed\LaravelFacebook\LaravelFacebookServiceProvider',
+
+),
+</code></pre>
+
+<p>At the end of <code>app/config/app.php</code> add <code>'FB' =&gt; 'Irazasyed\LaravelFacebook\FacebookFacade'</code> to the <code>$aliases</code> array</p>
+
+<pre><code>'aliases' =&gt; array(
+
+    'App'        =&gt; 'Illuminate\Support\Facades\App',
+    'Artisan'    =&gt; 'Illuminate\Support\Facades\Artisan',
+    ...
+    'FB'    =&gt; 'Irazasyed\LaravelFacebook\FacebookFacade',
+
+),
+</code></pre>
+
+<p><strong>NOTE:</strong> Don't use <code>Facebook</code> as your facade alias as it conflicts with the SDK itself. Because the SDK doesn't have namespace (And they ain't adding it either).</p>
+
+<h3>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h3>
+
+<p>Copy the config file into your project by running</p>
+
+<pre><code>php artisan config:publish irazasyed/laravel-facebook
+</code></pre>
+
+<p>It'll publish under <code>app/config/packages</code></p>
+
+<p>Edit the config file to include your App ID and secret key into <code>init</code> option. See config file for more configuration options.</p>
+
+<p><strong>And you are ready to go.</strong></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>This Package extends the Facebook PHP SDK, So all the methods listed here <a href="http://developers.facebook.com/docs/reference/php/">http://developers.facebook.com/docs/reference/php/</a> are available, as well as the following methods/helpers.</p>
+
+<p><strong>Adding Soon!</strong></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT © <a href="http://lk.gd/irazasyed">Syed I.R</a></p>
+
+<h2>
+<a name="additional-information" class="anchor" href="#additional-information"><span class="octicon octicon-link"></span></a>Additional information</h2>
+
+<p>Any issues, please <a href="https://github.com/irazasyed/laravel-facebook/issues">report here</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/irazasyed">irazasyed</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-54567513-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
