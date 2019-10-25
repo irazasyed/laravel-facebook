@@ -1,7 +1,12 @@
 Laravel-Facebook Package
 ===================================
-[![Build Status](https://travis-ci.org/irazasyed/laravel-facebook.svg)](https://travis-ci.org/irazasyed/laravel-facebook)
-[![Latest Stable Version](https://poser.pugx.org/irazasyed/laravel-facebook/v/stable.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![Total Downloads](https://poser.pugx.org/irazasyed/laravel-facebook/downloads.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![Latest Unstable Version](https://poser.pugx.org/irazasyed/laravel-facebook/v/unstable.svg)](https://packagist.org/packages/irazasyed/laravel-facebook) [![License](https://poser.pugx.org/irazasyed/laravel-facebook/license.svg)](https://packagist.org/packages/irazasyed/laravel-facebook)
+[![Join PHP Chat][ico-phpchat]][link-phpchat]
+[![Chat on Telegram][ico-telegram]][link-telegram]
+[![Laravel Package][ico-package]][link-repo]
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Total Downloads][ico-downloads]][link-downloads]
 
 **Laravel 4** Support for [Facebook PHP SDK](https://github.com/facebook/facebook-php-sdk) and additional helper methods.
 
@@ -13,11 +18,11 @@ Laravel-Facebook Package
 
 You can either add the package directly by firing this command
 	
-	$ composer require irazasyed/laravel-facebook:~1.0
+	$ composer require irazasyed/laravel-facebook:^1.0
 	
 Or add in the `require` key of `composer.json` file manually by add the following
 
-    "irazasyed/laravel-facebook": "~1.0"
+    "irazasyed/laravel-facebook": "^1.0"
 
 And Run the Composer update comand
 
@@ -72,11 +77,30 @@ This Package extends the Facebook PHP SDK, So all the methods listed here http:/
 
 **Adding Soon!**
 
+## Credits
+
+- [Syed][link-author]
+- [All Contributors][link-contributors]
+
 ## License
 
-MIT © [Syed I.R](http://lk.gd/irazasyed)
-
-## Additional information
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 
-Any issues, please [report here](https://github.com/irazasyed/laravel-facebook/issues)
+[ico-phpchat]: https://img.shields.io/badge/Slack-PHP%20Chat-5c6aaa.svg?style=flat-square&logo=slack&labelColor=4A154B
+[ico-telegram]: https://img.shields.io/badge/@PHPChatCo-2CA5E0.svg?style=flat-square&logo=telegram&label=Telegram
+[ico-package]: https://img.shields.io/badge/Laravel-4-FF2D20.svg?style=flat-square&logo=laravel&labelColor=black&logoColor=white
+[ico-version]: https://img.shields.io/packagist/v/irazasyed/laravel-facebook.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/irazasyed/laravel-facebook/master.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/irazasyed/laravel-facebook.svg?style=flat-square
+
+
+[link-phpchat]: https://phpchat.co/?ref=laravel-facebook
+[link-telegram]: https://t.me/PHPChatCo
+[link-repo]: https://github.com/irazasyed/laravel-facebook
+[link-packagist]: https://packagist.org/packages/irazasyed/laravel-facebook
+[link-travis]: https://travis-ci.org/irazasyed/laravel-facebook
+[link-downloads]: https://packagist.org/packages/irazasyed/laravel-facebook
+[link-author]: https://github.com/irazasyed
+[link-contributors]: ../../contributors
